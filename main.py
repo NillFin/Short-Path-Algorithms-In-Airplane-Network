@@ -123,14 +123,14 @@ def greedy(graph: Graph, start: str, target: str):
 if __name__ == "__main__":
 	graph = Graph()
 
-	graph.addNode("Paris", 1) 				# 1
-	graph.addNode("London", 2)				# 2
+	graph.addNode("Paris", 1) 			# 1
+	graph.addNode("London", 2)			# 2
 	graph.addNode("Milano", 3, True)		# 3
-	graph.addNode("Berlin", 4)				# 4
-	graph.addNode("Hamburg", 5)				# 5
-	graph.addNode("Warsaw", 6)				# 6
-	graph.addNode("Saint Petersburg", 7)	# 7
-	graph.addNode("Moscow", 8)				# 8
+	graph.addNode("Berlin", 4)			# 4
+	graph.addNode("Hamburg", 5)			# 5
+	graph.addNode("Warsaw", 6)			# 6
+	graph.addNode("Saint Petersburg", 7)		# 7
+	graph.addNode("Moscow", 8)			# 8
 	graph.addNode("Dubai", 9, True)			# 9
 	graph.addNode("Istanbul", 10)			# 10
 	graph.addNode("Toronto", 11)			# 11
