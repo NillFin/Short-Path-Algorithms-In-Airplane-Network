@@ -134,7 +134,7 @@ if __name__ == "__main__":
 	graph.addNode("Dubai", 9, True)			# 9
 	graph.addNode("Istanbul", 10)			# 10
 	graph.addNode("Toronto", 11)			# 11
-	graph.addNode("Hanoi", True, 12)		# 12
+	graph.addNode("Hanoi", 12, True)		# 12
 	graph.addNode("New York", 13)			# 13
 
 	graph.addEdge("Paris", "London", 5)
